@@ -528,7 +528,14 @@
                     android:layout_height="wrap_content"
                     android:text="Сбербанк *8312"
                     android:textSize="16sp"
-                    android:textColor="#000000"/>
+                    android:textStyle="bold"
+                    android:textColor="#575656"/>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/card"/>
 
             </LinearLayout>
 
