@@ -333,7 +333,7 @@
                             android:layout_marginTop="2dp"/>
 
                         <ImageView
-                            android:layout_marginTop="10dp"
+                            android:layout_marginTop="5dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
                             android:src="@drawable/visa"/>
@@ -455,32 +455,54 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:orientation="horizontal"
                 android:padding="16dp">
 
-                <TextView
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/portfel"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="77 777 ₽"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Инвестиции"
+                        android:textSize="14sp"
+                        android:textColor="#666666"
+                        android:layout_marginTop="4dp"/>
+                </LinearLayout>
+
+                <Space
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="77 777 ₽"
-                    android:textSize="18sp"
-                    android:textColor="#000000"
-                    android:textStyle="bold"/>
+                    android:layout_weight="1"/>
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Инвестиции"
-                    android:textSize="14sp"
-                    android:textColor="#666666"
-                    android:layout_marginTop="4dp"/>
-
-                <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-795.68 ₽ - 4.4%"
                     android:textSize="12sp"
                     android:textColor="#FF3B30"
-                    android:layout_marginTop="8dp"/>
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/price_background"
+                    android:paddingVertical="3.5dp"
+                    android:paddingHorizontal="10dp"
+                    android:layout_marginRight="10dp"/>
 
             </LinearLayout>
 
